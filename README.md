@@ -39,5 +39,5 @@ pip install -r requirements.txt # posicionados en el nivel del archivo
 ## 🚀 Correr aplicación
 
 ```bash
-python main.py
+python main.py  # posicionados en el nivel del archivo
 ```
