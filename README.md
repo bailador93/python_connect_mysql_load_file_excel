@@ -24,9 +24,16 @@ cd python-connection
 ```
 
 ## 🎯 Instala paquetes
+Prepararemos el entorno de trabajo usando un entorno virtual. 'env' será la carpeta donde se instalarán los módulos de forma local.
 
 ```bash
-pip install -r requirements.txt
+python -m venv env
+
+env\Scripts\activate # activamos el entorno
+```
+
+```bash
+pip install -r requirements.txt # posicionados en el nivel del archivo
 ```
 
 ## 🚀 Correr aplicación
